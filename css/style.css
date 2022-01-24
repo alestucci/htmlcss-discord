@@ -3,3 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-color: #4561DC;
+    height: 100px;
+}
+
+.cont-hdr {
+    max-width: 1200px;
+    margin: auto;
+    line-height: 10em;
+    position: relative;
+    background: green;
+}
+
+#logo {
+    position: absolute;
+    left: 0;
+    line height: 10em;
+}
+
+#menu ul {
+    list-style: none;
+    margin: auto;
+}
+
+#menu li {
+    display: inline-block;
+    
+}
+
+.login {
+    position: absolute;
+    right: 0;
+}
