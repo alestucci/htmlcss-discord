@@ -62,5 +62,57 @@ header {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     width: 100%;
-    height: 560px;
+    height: 35em;
+    position: relative;
+}
+
+.cont {
+    margin: 0 auto;
+    text-align: center;
+    /* background-color: chartreuse; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* Il valore massimo che mi fa impostare è 54em */
+.single {
+    /* max-width: 100em; */
+}
+
+.cont h1 {
+    font-size: 60px;
+    margin-bottom: 1em;
+}
+
+.cont p {
+    font-size: 24px;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.download {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    /* height: 2em; */
+    padding: 1em 1.5rem;
+    border-radius: 2em;
+    margin: 0 1em;
+}
+
+i {
+    padding-right: 1em;
+}
+
+.browser {
+    display: inline-block;
+    background-color: #292b2e;
+    color: white;
+    /* height: 2em; */
+    padding: 1em 1.5rem;
+    border-radius: 2em;
+    margin: 0 1em;
 }
