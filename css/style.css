@@ -8,6 +8,8 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* HEADER */
+
 header {
     background-color: #245ee8;
     height: 5rem;
@@ -56,6 +58,8 @@ header {
     border-radius: 1.5em;
     color: black;
 }
+
+/* PRIMA RIGA */
 
 .row {
     position: relative;
@@ -119,6 +123,8 @@ i {
     border-radius: 2em;
     margin: 0 1em;
 }
+
+/* SECONDA RIGA */
 
 .second {
     height: 46em;
