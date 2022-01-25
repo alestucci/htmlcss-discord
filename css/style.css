@@ -36,7 +36,6 @@ header {
 }
 
 #menu ul {
-    /* display: inline-block; */
     list-style: none;
 }
 
@@ -58,28 +57,30 @@ header {
     color: black;
 }
 
-.raw.first {
+.row {
+    position: relative;
+}
+
+.first {
+    height: 35em;
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    width: 100%;
-    height: 35em;
-    position: relative;
 }
 
 .cont {
     margin: 0 auto;
-    text-align: center;
     /* background-color: chartreuse; */
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    color: white;
 }
 
 /* Il valore massimo che mi fa impostare è 54em */
 .single {
-    /* max-width: 100em; */
+    text-align: center;
+    color: white;
+    max-width: 800px;
 }
 
 .cont h1 {
@@ -96,9 +97,10 @@ header {
 .download {
     display: inline-block;
     background-color: white;
+    font-size: 24px;
     color: black;
     /* height: 2em; */
-    padding: 1em 1.5rem;
+    padding: 1em 1.5em;
     border-radius: 2em;
     margin: 0 1em;
 }
@@ -110,9 +112,32 @@ i {
 .browser {
     display: inline-block;
     background-color: #292b2e;
+    font-size: 24px;
     color: white;
     /* height: 2em; */
-    padding: 1em 1.5rem;
+    padding: 1em 1.5em;
     border-radius: 2em;
     margin: 0 1em;
+}
+
+.second {
+    height: 46em;
+    /* background-color: violet; */
+    margin: 0 auto;
+}
+
+.double {
+    width: 100em;
+
+}
+
+.left {
+    display: inline-block;
+    width: 60%;
+}
+
+.right {
+    display: inline-block;
+    width: 20%;
+    margin-left: 10em;
 }
