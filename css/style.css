@@ -69,6 +69,7 @@ header {
     height: 35em;
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    color: white;
 }
 
 .cont {
@@ -83,7 +84,6 @@ header {
 /* Il valore massimo che mi fa impostare è 54em */
 .single {
     text-align: center;
-    color: white;
     max-width: 800px;
 }
 
@@ -100,13 +100,15 @@ header {
 
 .download {
     display: inline-block;
-    background-color: white;
     font-size: 24px;
-    color: black;
-    /* height: 2em; */
     padding: 1em 1.5em;
     border-radius: 2em;
     margin: 0 1em;
+}
+
+.top {
+    background-color: white;
+    color: black;
 }
 
 i {
@@ -118,7 +120,6 @@ i {
     background-color: #292b2e;
     font-size: 24px;
     color: white;
-    /* height: 2em; */
     padding: 1em 1.5em;
     border-radius: 2em;
     margin: 0 1em;
@@ -127,7 +128,7 @@ i {
 /* SECONDA RIGA */
 
 .second {
-    height: 46em;
+    height: 50em;
     /* background-color: violet; */
     margin: 0 auto;
 }
@@ -145,5 +146,46 @@ i {
 .right {
     display: inline-block;
     width: 20%;
+}
+
+.right:last-child {
     margin-left: 10em;
+}
+
+.left:last-child {
+    margin-left: 10em;
+}
+
+/* TERZA RIGA */
+
+.third {
+    height: 50em;
+    background-color: #f6f6f6;
+}
+
+/* QUARTA RIGA */
+
+.fourth {
+    height: 50em;
+}
+
+/* QUINTA RIGA */
+
+.fifth {
+    height: 70em;
+    background-color: #f6f6f6;
+    color: black;
+
+}
+
+.question {
+    line-height: 4em;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+}
+
+.bottom {
+    background-color: #8ea0e1;
+    color: white;
+
 }
